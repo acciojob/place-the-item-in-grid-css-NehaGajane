@@ -2,12 +2,11 @@
 /* Your CSS Code here. */
 .holder {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 100px);
 }
 
 .item {
 	padding: 20px;
 	background-color: steelblue;
-	border: 1px solid skyblue;
 	column-gap: 10px;
 }
